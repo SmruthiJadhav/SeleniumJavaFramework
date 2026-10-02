@@ -27,6 +27,7 @@ public class Hooks {
     @Before
     public void setUp(Scenario scenario) {
         // Jenkins CI Test
+        // test GitHub webhook
         // Create Extent test
         ExtentReports extent =
                 ExtentManager.getExtentReports();
