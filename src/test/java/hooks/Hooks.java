@@ -26,6 +26,7 @@ public class Hooks {
 
     @Before
     public void setUp(Scenario scenario) {
+        // Jenkins CI Test
         // Create Extent test
         ExtentReports extent =
                 ExtentManager.getExtentReports();
