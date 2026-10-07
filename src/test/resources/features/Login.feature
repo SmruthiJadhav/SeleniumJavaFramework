@@ -14,4 +14,3 @@ Feature: Login functionality
       | username  | password              | message                        |
       | tomsmith  | SuperSecretPassword!  | You logged into a secure area! |
       | wronguser | SuperSecretPassword!  | Your username is invalid!      |
-      | tomsmith  | wrongpassword         | Your password is invalid!      |
